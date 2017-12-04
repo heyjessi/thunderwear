@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		136891671FD1522100008CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136891661FD1522100008CFA /* AppDelegate.swift */; };
+		136891691FD1522100008CFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136891681FD1522100008CFA /* ViewController.swift */; };
+		1368916C1FD1522100008CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1368916A1FD1522100008CFA /* Main.storyboard */; };
+		1368916E1FD1522100008CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1368916D1FD1522100008CFA /* Assets.xcassets */; };
+		136891711FD1522100008CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1368916F1FD1522100008CFA /* LaunchScreen.storyboard */; };
+		1368917C1FD1522100008CFA /* Thunderwear1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1368917B1FD1522100008CFA /* Thunderwear1Tests.swift */; };
+		136891871FD1522100008CFA /* Thunderwear1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136891861FD1522100008CFA /* Thunderwear1UITests.swift */; };
+		79415280C382FE692896290F /* Pods_Thunderwear1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C718C9AAAE518F2E7C3D0F07 /* Pods_Thunderwear1UITests.framework */; };
+		9EB2B9683907C9B71C747E0C /* Pods_Thunderwear1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13201FEC6F79605D2C36933C /* Pods_Thunderwear1Tests.framework */; };
+		B834B01BEF009D2528DC0CA6 /* Pods_Thunderwear1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F6DE6796E545B48804D497 /* Pods_Thunderwear1.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		136891781FD1522100008CFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1368915B1FD1522100008CFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136891621FD1522100008CFA;
+			remoteInfo = Thunderwear1;
+		};
+		136891831FD1522100008CFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1368915B1FD1522100008CFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136891621FD1522100008CFA;
+			remoteInfo = Thunderwear1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13201FEC6F79605D2C36933C /* Pods_Thunderwear1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thunderwear1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		136891631FD1522100008CFA /* Thunderwear1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thunderwear1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		136891661FD1522100008CFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		136891681FD1522100008CFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1368916B1FD1522100008CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1368916D1FD1522100008CFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		136891701FD1522100008CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		136891721FD1522100008CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136891771FD1522100008CFA /* Thunderwear1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Thunderwear1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1368917B1FD1522100008CFA /* Thunderwear1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thunderwear1Tests.swift; sourceTree = "<group>"; };
+		1368917D1FD1522100008CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136891821FD1522100008CFA /* Thunderwear1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Thunderwear1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		136891861FD1522100008CFA /* Thunderwear1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thunderwear1UITests.swift; sourceTree = "<group>"; };
+		136891881FD1522100008CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139FAE45E0634ED1DE013B43 /* Pods-Thunderwear1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thunderwear1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thunderwear1Tests/Pods-Thunderwear1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8727C4232F9E7558432B80A7 /* Pods-Thunderwear1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thunderwear1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thunderwear1UITests/Pods-Thunderwear1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABF0553CFD070DA8F50F572D /* Pods-Thunderwear1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thunderwear1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thunderwear1/Pods-Thunderwear1.release.xcconfig"; sourceTree = "<group>"; };
+		B4E01DA0B8D4D8B87223C3A0 /* Pods-Thunderwear1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thunderwear1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thunderwear1UITests/Pods-Thunderwear1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		C3979653860071C559841FA4 /* Pods-Thunderwear1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thunderwear1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thunderwear1/Pods-Thunderwear1.debug.xcconfig"; sourceTree = "<group>"; };
+		C718C9AAAE518F2E7C3D0F07 /* Pods_Thunderwear1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thunderwear1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F6DE6796E545B48804D497 /* Pods_Thunderwear1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thunderwear1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE952FC0431CFD1A36549F60 /* Pods-Thunderwear1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thunderwear1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thunderwear1Tests/Pods-Thunderwear1Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		136891601FD1522100008CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B834B01BEF009D2528DC0CA6 /* Pods_Thunderwear1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136891741FD1522100008CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB2B9683907C9B71C747E0C /* Pods_Thunderwear1Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1368917F1FD1522100008CFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79415280C382FE692896290F /* Pods_Thunderwear1UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1368915A1FD1522100008CFA = {
+			isa = PBXGroup;
+			children = (
+				136891651FD1522100008CFA /* Thunderwear1 */,
+				1368917A1FD1522100008CFA /* Thunderwear1Tests */,
+				136891851FD1522100008CFA /* Thunderwear1UITests */,
+				136891641FD1522100008CFA /* Products */,
+				EF17EAD2A43CEB7C4B54D36E /* Pods */,
+				A04C4B85AF6C3BEE2C89C872 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		136891641FD1522100008CFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				136891631FD1522100008CFA /* Thunderwear1.app */,
+				136891771FD1522100008CFA /* Thunderwear1Tests.xctest */,
+				136891821FD1522100008CFA /* Thunderwear1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		136891651FD1522100008CFA /* Thunderwear1 */ = {
+			isa = PBXGroup;
+			children = (
+				136891661FD1522100008CFA /* AppDelegate.swift */,
+				136891681FD1522100008CFA /* ViewController.swift */,
+				1368916A1FD1522100008CFA /* Main.storyboard */,
+				1368916D1FD1522100008CFA /* Assets.xcassets */,
+				1368916F1FD1522100008CFA /* LaunchScreen.storyboard */,
+				136891721FD1522100008CFA /* Info.plist */,
+			);
+			path = Thunderwear1;
+			sourceTree = "<group>";
+		};
+		1368917A1FD1522100008CFA /* Thunderwear1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1368917B1FD1522100008CFA /* Thunderwear1Tests.swift */,
+				1368917D1FD1522100008CFA /* Info.plist */,
+			);
+			path = Thunderwear1Tests;
+			sourceTree = "<group>";
+		};
+		136891851FD1522100008CFA /* Thunderwear1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				136891861FD1522100008CFA /* Thunderwear1UITests.swift */,
+				136891881FD1522100008CFA /* Info.plist */,
+			);
+			path = Thunderwear1UITests;
+			sourceTree = "<group>";
+		};
+		A04C4B85AF6C3BEE2C89C872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8F6DE6796E545B48804D497 /* Pods_Thunderwear1.framework */,
+				13201FEC6F79605D2C36933C /* Pods_Thunderwear1Tests.framework */,
+				C718C9AAAE518F2E7C3D0F07 /* Pods_Thunderwear1UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF17EAD2A43CEB7C4B54D36E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3979653860071C559841FA4 /* Pods-Thunderwear1.debug.xcconfig */,
+				ABF0553CFD070DA8F50F572D /* Pods-Thunderwear1.release.xcconfig */,
+				139FAE45E0634ED1DE013B43 /* Pods-Thunderwear1Tests.debug.xcconfig */,
+				FE952FC0431CFD1A36549F60 /* Pods-Thunderwear1Tests.release.xcconfig */,
+				8727C4232F9E7558432B80A7 /* Pods-Thunderwear1UITests.debug.xcconfig */,
+				B4E01DA0B8D4D8B87223C3A0 /* Pods-Thunderwear1UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		136891621FD1522100008CFA /* Thunderwear1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1368918B1FD1522100008CFA /* Build configuration list for PBXNativeTarget "Thunderwear1" */;
+			buildPhases = (
+				C3C522CB739008FF86C9EBFB /* [CP] Check Pods Manifest.lock */,
+				1368915F1FD1522100008CFA /* Sources */,
+				136891601FD1522100008CFA /* Frameworks */,
+				136891611FD1522100008CFA /* Resources */,
+				89D7A31D865D1A8B00D96B2D /* [CP] Embed Pods Frameworks */,
+				A4DAF3FFFB053F5667DEBEF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thunderwear1;
+			productName = Thunderwear1;
+			productReference = 136891631FD1522100008CFA /* Thunderwear1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		136891761FD1522100008CFA /* Thunderwear1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1368918E1FD1522100008CFA /* Build configuration list for PBXNativeTarget "Thunderwear1Tests" */;
+			buildPhases = (
+				32FC0303CE45651596D7FD1D /* [CP] Check Pods Manifest.lock */,
+				136891731FD1522100008CFA /* Sources */,
+				136891741FD1522100008CFA /* Frameworks */,
+				136891751FD1522100008CFA /* Resources */,
+				54A17F4B34E8EE7AE2C1D471 /* [CP] Embed Pods Frameworks */,
+				AE11D7D318786911A7537E2A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				136891791FD1522100008CFA /* PBXTargetDependency */,
+			);
+			name = Thunderwear1Tests;
+			productName = Thunderwear1Tests;
+			productReference = 136891771FD1522100008CFA /* Thunderwear1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		136891811FD1522100008CFA /* Thunderwear1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136891911FD1522100008CFA /* Build configuration list for PBXNativeTarget "Thunderwear1UITests" */;
+			buildPhases = (
+				12CA7BAAD2F23E99D4DBC906 /* [CP] Check Pods Manifest.lock */,
+				1368917E1FD1522100008CFA /* Sources */,
+				1368917F1FD1522100008CFA /* Frameworks */,
+				136891801FD1522100008CFA /* Resources */,
+				AF3F61FB9CF590F75FF232A1 /* [CP] Embed Pods Frameworks */,
+				BDD9718139E7C1A7985405D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				136891841FD1522100008CFA /* PBXTargetDependency */,
+			);
+			name = Thunderwear1UITests;
+			productName = Thunderwear1UITests;
+			productReference = 136891821FD1522100008CFA /* Thunderwear1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1368915B1FD1522100008CFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Jess Eng";
+				TargetAttributes = {
+					136891621FD1522100008CFA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					136891761FD1522100008CFA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 136891621FD1522100008CFA;
+					};
+					136891811FD1522100008CFA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 136891621FD1522100008CFA;
+					};
+				};
+			};
+			buildConfigurationList = 1368915E1FD1522100008CFA /* Build configuration list for PBXProject "Thunderwear1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1368915A1FD1522100008CFA;
+			productRefGroup = 136891641FD1522100008CFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				136891621FD1522100008CFA /* Thunderwear1 */,
+				136891761FD1522100008CFA /* Thunderwear1Tests */,
+				136891811FD1522100008CFA /* Thunderwear1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		136891611FD1522100008CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136891711FD1522100008CFA /* LaunchScreen.storyboard in Resources */,
+				1368916E1FD1522100008CFA /* Assets.xcassets in Resources */,
+				1368916C1FD1522100008CFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136891751FD1522100008CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136891801FD1522100008CFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12CA7BAAD2F23E99D4DBC906 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thunderwear1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32FC0303CE45651596D7FD1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thunderwear1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A17F4B34E8EE7AE2C1D471 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thunderwear1Tests/Pods-Thunderwear1Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89D7A31D865D1A8B00D96B2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thunderwear1/Pods-Thunderwear1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thunderwear1/Pods-Thunderwear1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4DAF3FFFB053F5667DEBEF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thunderwear1/Pods-Thunderwear1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE11D7D318786911A7537E2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thunderwear1Tests/Pods-Thunderwear1Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF3F61FB9CF590F75FF232A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thunderwear1UITests/Pods-Thunderwear1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD9718139E7C1A7985405D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thunderwear1UITests/Pods-Thunderwear1UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C522CB739008FF86C9EBFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thunderwear1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1368915F1FD1522100008CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136891691FD1522100008CFA /* ViewController.swift in Sources */,
+				136891671FD1522100008CFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136891731FD1522100008CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1368917C1FD1522100008CFA /* Thunderwear1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1368917E1FD1522100008CFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136891871FD1522100008CFA /* Thunderwear1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		136891791FD1522100008CFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136891621FD1522100008CFA /* Thunderwear1 */;
+			targetProxy = 136891781FD1522100008CFA /* PBXContainerItemProxy */;
+		};
+		136891841FD1522100008CFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136891621FD1522100008CFA /* Thunderwear1 */;
+			targetProxy = 136891831FD1522100008CFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1368916A1FD1522100008CFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1368916B1FD1522100008CFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1368916F1FD1522100008CFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				136891701FD1522100008CFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		136891891FD1522100008CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1368918A1FD1522100008CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1368918C1FD1522100008CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3979653860071C559841FA4 /* Pods-Thunderwear1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Thunderwear1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Thunderwear1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1368918D1FD1522100008CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF0553CFD070DA8F50F572D /* Pods-Thunderwear1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Thunderwear1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Thunderwear1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1368918F1FD1522100008CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139FAE45E0634ED1DE013B43 /* Pods-Thunderwear1Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Thunderwear1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Thunderwear1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thunderwear1.app/Thunderwear1";
+			};
+			name = Debug;
+		};
+		136891901FD1522100008CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE952FC0431CFD1A36549F60 /* Pods-Thunderwear1Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Thunderwear1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Thunderwear1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thunderwear1.app/Thunderwear1";
+			};
+			name = Release;
+		};
+		136891921FD1522100008CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8727C4232F9E7558432B80A7 /* Pods-Thunderwear1UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Thunderwear1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Thunderwear1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thunderwear1;
+			};
+			name = Debug;
+		};
+		136891931FD1522100008CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E01DA0B8D4D8B87223C3A0 /* Pods-Thunderwear1UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Thunderwear1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Thunderwear1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thunderwear1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1368915E1FD1522100008CFA /* Build configuration list for PBXProject "Thunderwear1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136891891FD1522100008CFA /* Debug */,
+				1368918A1FD1522100008CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1368918B1FD1522100008CFA /* Build configuration list for PBXNativeTarget "Thunderwear1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1368918C1FD1522100008CFA /* Debug */,
+				1368918D1FD1522100008CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1368918E1FD1522100008CFA /* Build configuration list for PBXNativeTarget "Thunderwear1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1368918F1FD1522100008CFA /* Debug */,
+				136891901FD1522100008CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136891911FD1522100008CFA /* Build configuration list for PBXNativeTarget "Thunderwear1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136891921FD1522100008CFA /* Debug */,
+				136891931FD1522100008CFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1368915B1FD1522100008CFA /* Project object */;
+}

@@ -1,7 +1,7 @@
 # thunderwear
 
 A ground-breaking, earth-shattering iOS app that will revolutionize your life.
-Global warming. CS50 Psets. Trump. All these factors impede our productivity. Thunderwear is here to save the day.
+Global warming. CS50 Psets. Trump. All these factors impede our productivity. But don't worry, Thunderwear is here to save the day.
 
 This is THUNDERWEAR.
 
@@ -25,7 +25,7 @@ This was THUNDERWEAR.
 
 ## acknowledgements
 
-Special thanks go to Nick, Thomas, and Emma for helping us learn Swift and get a headstart on our project. We couldn't have made a usable iOS app without you. 
+Special thanks go to Nick, Thomas, and Emma for helping us learn Swift and get a headstart on our project. We couldn't have made a usable iOS app without you.
 
 Thunderwear is brought to you by three CS50 students :girl: :boy: :girl:
 

@@ -5,7 +5,7 @@ Global warming. CS50 Psets. Trump. All these factors impede our productivity. Bu
 
 This is **THUNDERWEAR**.
 
-![Image of Thunderwear Logo](https://github.com/azhou4/thunderwear/blob/master/iTunesArtwork%403x.png)
+![Image of Thunderwear Logo](https://github.com/azhou4/thunderwear/blob/master/Icon-App-83.5x83.5%402x.png)
 
 Upon the simple press of a button, combining the most recent local weather information, Thunderwear will provide you with accurate knowledge of the most suitable outfit to wear. Thunderwear is intended for all audiences to easily manage their outfit choices, dressing appropriately through all four seasons, all year round, rain or shine.
 

@@ -20,19 +20,6 @@ After entering location, clicking "*Submit*" will bring the user back to the hom
 We hope that you enjoy using our very first iOS app!
 
 
-
-logo on top
-input location button, redirects to second page
-Where are you? - any location, click submit
-
-submit -- asynchronous because waits for validation from backend, have to wait for main page
-
-Outfit suggestion
-weather
-temperature
-
-changing background
-
 Documentation for your project in the form of a Markdown file called README.md. This documentation is to be a user’s manual for your project. Though the structure of your documentation is entirely up to you, it should be incredibly clear to the staff how and where, if applicable, to compile, configure, and use your project. Your documentation should be at least several paragraphs in length. It should not be necessary for us to contact you with questions regarding your project after its submission. Hold our hand with this documentation; be sure to answer in your documentation any questions that you think we might have while testing your work.
 
 

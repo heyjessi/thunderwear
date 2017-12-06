@@ -13,14 +13,19 @@ Since Thunderwear has not yet been published in the app store, the Github Xcode 
 
 ## features
 
-Thunderwear was designed to be extremely intuitive and user-friendly. Upon opening Thunderwear, the user is greeted by the home page. The home page is simple and clean, displaying only the Thunderwear logo and a button labelled "*Input Location*." To start, press the "*Input Location*" button. The user is redirected to the Location page, where they can input either their current location, or any location in the entire world. For ease of use, the location can be inputted in many formats (i.e. Street Address, City; City, State, Country; Zip code; Longitude, Latitude; etc.), similar to the way locations can be inputted in Google Maps.
+Thunderwear was designed to be extremely intuitive and user-friendly. Upon opening Thunderwear, the user is greeted by the home page. The home page is simple and clean, displaying only the Thunderwear logo and a button labelled "**Input Location**." To start, press the "**Input Location**" button. The user is redirected to the Location page, where they can input either their current location, or any location in the entire world. For ease of use, the location can be inputted in many formats (i.e. Street Address, City; City, State, Country; Zip code; Longitude, Latitude; etc.), similar to the way locations can be inputted in Google Maps.
 
-After entering location, clicking "*Submit*" will bring the user back to the home page. This time, however, the home page will display a variety of features to help guide the user to choose an outfit to wear. Firstly, the background of the screen will change depending on the weather conditions of the location. For example, if there is a chance of precipitation, the background of the app will emulate rain. Secondly, under the header "Outfit Recommendations," dynamically suggested clothing items such as short-sleeve shirt, long pants, coat/jacket will be made, depending on the weather forecast and temperature of the location. Underneath "Outfit Recommendations," the "Weather" heading will provide additional advice regarding the weather, such as remembering to bring an umbrella on a rainy day. In addition, there is a header called "Today's Temperature" that displays the High and Low temperatures. Lastly, there is another "*Input Location*" button at the bottom, allowing the user to easily look up another location if needed.
+After entering location, clicking "**Submit**" will bring the user back to the home page. This time, however, the home page will display a variety of features to help guide the user to choose an outfit to wear. Firstly, the background of the screen will change depending on the weather conditions of the location. For example, if there is a chance of precipitation, the background of the app will emulate rain. Secondly, under the header "*Outfit Recommendations*," dynamically suggested clothing items such as short-sleeve shirt, long pants, coat/jacket will be made, depending on the weather forecast and temperature of the location. Underneath "*Outfit Recommendations*," the "*Weather*" heading will provide additional advice regarding the weather, such as remembering to bring an umbrella on a rainy day. In addition, there is a header called "*Today's Temperature*" that displays the High and Low temperatures. Lastly, there is another "**Input Location**" button at the bottom, allowing the user to easily look up another location if needed.
 
-We hope that you enjoy using our very first iOS app!
-
-
-Documentation for your project in the form of a Markdown file called README.md. This documentation is to be a user’s manual for your project. Though the structure of your documentation is entirely up to you, it should be incredibly clear to the staff how and where, if applicable, to compile, configure, and use your project. Your documentation should be at least several paragraphs in length. It should not be necessary for us to contact you with questions regarding your project after its submission. Hold our hand with this documentation; be sure to answer in your documentation any questions that you think we might have while testing your work.
+Although simple, we believe Thunderwear has the potential to make a real positive impact on people's lives. We hope you enjoy using our very first iOS app!
 
 
+This was THUNDERWEAR.
+
+
+## acknowledgements
+
+Special thanks go to Nick, Thomas, and Emma for helping us learn Swift and get a headstart on our project. We couldn't have made a usable iOS app without you. 
+
+Thunderwear is brought to you by three CS50 students :girl: :boy: :girl:
 

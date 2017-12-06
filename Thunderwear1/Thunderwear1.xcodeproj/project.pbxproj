@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132CC8351FD716C600807DDA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132CC8341FD716C600807DDA /* CoreLocation.framework */; };
+		133BAE621FD79E44004CBCFB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133BAE611FD79E44004CBCFB /* SecondViewController.swift */; };
+		133BAE641FD7B5D7004CBCFB /* String+Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133BAE631FD7B5D7004CBCFB /* String+Shortcuts.swift */; };
 		136891671FD1522100008CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136891661FD1522100008CFA /* AppDelegate.swift */; };
 		136891691FD1522100008CFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136891681FD1522100008CFA /* ViewController.swift */; };
 		1368916C1FD1522100008CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1368916A1FD1522100008CFA /* Main.storyboard */; };
@@ -38,6 +41,9 @@
 
 /* Begin PBXFileReference section */
 		13201FEC6F79605D2C36933C /* Pods_Thunderwear1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thunderwear1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		132CC8341FD716C600807DDA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		133BAE611FD79E44004CBCFB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		133BAE631FD7B5D7004CBCFB /* String+Shortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Shortcuts.swift"; sourceTree = "<group>"; };
 		136891631FD1522100008CFA /* Thunderwear1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thunderwear1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		136891661FD1522100008CFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		136891681FD1522100008CFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132CC8351FD716C600807DDA /* CoreLocation.framework in Frameworks */,
 				B834B01BEF009D2528DC0CA6 /* Pods_Thunderwear1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,7 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				136891661FD1522100008CFA /* AppDelegate.swift */,
+				133BAE611FD79E44004CBCFB /* SecondViewController.swift */,
 				136891681FD1522100008CFA /* ViewController.swift */,
+				133BAE631FD7B5D7004CBCFB /* String+Shortcuts.swift */,
 				1368916A1FD1522100008CFA /* Main.storyboard */,
 				1368916D1FD1522100008CFA /* Assets.xcassets */,
 				1368916F1FD1522100008CFA /* LaunchScreen.storyboard */,
@@ -145,6 +154,7 @@
 		A04C4B85AF6C3BEE2C89C872 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				132CC8341FD716C600807DDA /* CoreLocation.framework */,
 				C8F6DE6796E545B48804D497 /* Pods_Thunderwear1.framework */,
 				13201FEC6F79605D2C36933C /* Pods_Thunderwear1Tests.framework */,
 				C718C9AAAE518F2E7C3D0F07 /* Pods_Thunderwear1UITests.framework */,
@@ -458,7 +468,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				133BAE621FD79E44004CBCFB /* SecondViewController.swift in Sources */,
 				136891691FD1522100008CFA /* ViewController.swift in Sources */,
+				133BAE641FD7B5D7004CBCFB /* String+Shortcuts.swift in Sources */,
 				136891671FD1522100008CFA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

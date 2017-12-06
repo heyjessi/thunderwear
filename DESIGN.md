@@ -13,9 +13,7 @@ Thunderwear was designed in two main components: the "front end" coded in Swift,
 
 ## swift front end
 
-- alamofire/pods
-
-- swift/xcode
+The front end of Thunderwear was coded in Swift 3 and run in the program Xcode 9. The library Alamofire **add link** was used to assist in the communication between the front end and back end of the app.
 
 ### main storyboard
 
@@ -27,7 +25,15 @@ The storyboard gives a visual representation of what the app looks like.
 
 The viewcontroller is where the code for the storyboard is placed. In Thunderwear, there are two viewcontrollers, one for each distinct screen.
 
+The first viewcontroller handles the home page as well as the display of weather information. Therefore, before the user inputs a location, the headers mentioned in the Readme file ("Outfit Recommendations," "Weather," "Today's Temperature") must be hidden. Therefore, when the user initially opens the app, only the button "**Input Location**" is present. Once the user inputs the location, the code shows the previously mentioned headers as well as the weather information.
 
+Depending on the weather conditions, the background of the viewcontroller will change. To do this, the viewcontroller gets the weather code from the weatherInfo array. If the first digit of the code is "2," "3," or "5," the background will change to different rain backgrounds and will warn the user to bring an umbrella and a rain jacket. 
+
+### second viewcontroller
+
+The second viewcontroller allows the user to input location information.
+
+**add more here, jess, because I can't view the second viewcontroller from my computer**
 
 ## python/flask back end
 

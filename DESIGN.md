@@ -9,15 +9,17 @@ Upon the simple press of a button, combining the most recent local weather infor
 
 ## general
 
-Thunderwear was designed in two main components: the "front end" coded in Swift, and the "back end" coded in Python and using Flask. Together, they work to produce the iOS app, sending weather information to get outfit suggestions. 
+Thunderwear was designed in two main components: the "front end" coded in Swift, and the "back end" coded in Python and using Flask. Together, they work to produce the iOS app, sending weather information to get outfit suggestions.
 
 ## swift front end
 
 
 
+
 ## python/flask back end
 
-
+- talk about the algorithm here
+- the php tables
 
 ## logo
 

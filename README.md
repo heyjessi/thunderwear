@@ -22,7 +22,7 @@ After entering location, clicking "**Submit**" will bring the user back to the h
 Although simple, we believe Thunderwear has the potential to make a real positive impact on people's lives. We hope you enjoy using our very first iOS app!
 
 
-This was THUNDERWEAR.
+This was **THUNDERWEAR**.
 
 
 ## acknowledgements

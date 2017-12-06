@@ -15,7 +15,7 @@ Thunderwear was designed in two main components: the "front end" coded in Swift,
 
 ## swift front end
 
-The front end of Thunderwear was coded in Swift 3 and run in the program Xcode 9. The library Alamofire **add link** was used to assist in the communication between the front end and back end of the app.
+The front end of Thunderwear was coded in Swift 3 and run in the program Xcode 9. The library [Alamofire](https://github.com/Alamofire/Alamofire) was used to assist in the communication between the front end and back end of the app.
 
 ### main storyboard
 
@@ -50,7 +50,7 @@ The second viewcontroller allows the user to input location information.
 
 ## logo
 
-We wanted to design a simple, clean, easily recognizable, yet unique logo. Combining a cloud, sun, and clothes hanger, we designed a logo that encapsulates the functionality and purpose of Thunderwear. The logo was designed using the online service Canva **add link**.
+We wanted to design a simple, clean, easily recognizable, yet unique logo. Combining a cloud, sun, and clothes hanger, we designed a logo that encapsulates the functionality and purpose of Thunderwear. The logo was designed using the online service [Canva](https://www.canva.com/).
 
 ![Image of Thunderwear Logo](https://github.com/azhou4/thunderwear/blob/master/Icon-App-83.5x83.5%402x.png)
 

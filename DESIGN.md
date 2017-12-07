@@ -4,7 +4,7 @@ A ground-breaking, earth-shattering iOS app that will revolutionize your life. G
 
 This is **THUNDERWEAR**.
 
-![Image of Thunderwear Logo](https://github.com/azhou4/thunderwear/blob/master/iTunesArtwork%403x.png)
+![Image of Thunderwear Logo](https://github.com/azhou4/thunderwear/blob/master/THUNDERWEAR%20(4).png)
 
 With the simple press of a button, Thunderwear will retrieve your local weather information and dynamically provide you with an accurate clothing recommendation. Thunderwear is intended for all audiences to easily manage their outfit choices by dressing appropriately through all four seasons, all year round, rain or shine.
 

@@ -19,7 +19,7 @@ Thunderwear was designed to be extremely intuitive and user-friendly. Upon openi
 
 ![Image of Home Page](https://github.com/azhou4/thunderwear/blob/master/Screen%20Shot%202017-12-07%20at%2012.55.28%20am.png)
 
-<img src="https://github.com/azhou4/thunderwear/blob/master/Screen%20Shot%202017-12-07%20at%2012.55.28%20am.png" width="48">
+<img src="https://github.com/azhou4/thunderwear/blob/master/Screen%20Shot%202017-12-07%20at%2012.55.28%20am.png" width="480">
 
 To start, press the "**Input Location**" button. The user is redirected to the Location page where they can input either their current location or any location in the world. For ease of use, the location can be inputted in many formats (i.e. Street Address, City; City, State, Country; Zip code; Longitude, Latitude; etc.), similar to the way locations can be inputted in Google Maps.
 

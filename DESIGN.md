@@ -12,6 +12,8 @@ With the simple press of a button, Thunderwear will retrieve your local weather 
 
 Thunderwear is designed in two main components: the "front end" coded with Swift, and the "back end" coded with Python and using Flask. Together, they work to produce the iOS app, sending HTTP requests (location information and weather information) back and forth to get outfit suggestions.
 
+The reason for the implementation of this intermediary flask server and actually having both a front end and back end (as opposed to simply coding everything in Swift) was to make further improvements, such as being able to send images back and forth as well as simultaneously accessing databases like individual user information, as easy as possible. 
+
 ## swift front end
 
 The front end of Thunderwear was coded in Swift 3 and run in the program Xcode 9. The library [Alamofire](https://github.com/Alamofire/Alamofire) was used to assist in the communication between the front end and back end of the app.
@@ -69,8 +71,6 @@ This first prototype of Thunderwear is useful and well-designed, but the app cou
 User experience could be greatly improved by incorporating an image aspect. Originally, we planned to allow Thunderwear to store user's photos of their clothing. After adding a label to each article of clothing, the outfit recommendation would be accompanied by images of the user's won clothing. However, although a camera and image loader from the Apple photo library were easy to implement, storing these images was not easily implemented in Swift. Most resources on the internet were outdated as Swift is a new and frequently updated language, and the methods to store multiple photos internally and later retrieving these photos was not immediately obvious. Eventually, after several hours of attempts and several new projects/workspaces, our group decided not to include this feature in the first prototype of Thunderwear.
 
 In order for the user to receive outfit recommendations, a post request must be sent from the front end to back end, and a response must be received from the back end to front end. Therefore, this delay in order to load information slows down app performance.
-
-However, the reason for the implementation of this intermediary flask server and actually having both a front end and back end (as opposed to simply coding everything in Swift) was to make further improvements, such as being able to send images back and forth as well as simultaneously accessing databases like individual user information, as easy as possible. 
 
 Learning to code in Swift/Xcode to develop an iOS app was a great and exciting learning experience. Although simple, we believe Thunderwear has the potential to make a real positive impact on people's lives. We hope you enjoy using our very first iOS app!
 

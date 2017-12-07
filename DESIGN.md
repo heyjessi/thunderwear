@@ -4,7 +4,7 @@ A ground-breaking, earth-shattering iOS app that will revolutionize your life. G
 
 This is **THUNDERWEAR**.
 
-![Image of Thunderwear Logo](https://github.com/azhou4/thunderwear/blob/master/THUNDERWEAR%20(4).png)
+![Image of Thunderwear Logo](https://github.com/azhou4/thunderwear/blob/master/iTunesArtwork%403x.png)
 
 With the simple press of a button, Thunderwear will retrieve your local weather information and dynamically provide you with an accurate clothing recommendation. Thunderwear is intended for all audiences to easily manage their outfit choices by dressing appropriately through all four seasons, all year round, rain or shine.
 
@@ -53,7 +53,14 @@ First, the mobile app sends the server a POST request that contains JSON informa
 
 The weather function first takes in the argument and via the google maps api, converts it to its specific latitude and longitude coordinates. Then, it stores the weather code and high and low temperature for the day via the weatherbit daily api and then proceeds to call the weatherbit hourly api. 
 
-From here, the core of the algorithm is dependent
+From here, the majority of the code is the algorithm itself - how to convert temperature into clothing. We created 5 tables ("vhot", "hot", "mild", "cool", "cold") in the sqllite database called "info" that each had their own specific outfit choices (i.e. "vhot" = "tank top", "short shorts") and their own specific temperature boundaries (i.e. "hot" is between 70 and 80°F). While reading in the hourly forecast for the next 12 hours one by one, we sorted each hourly temperature into one of the 5 groups and at the end, tallied them all up. Then we selected the temperature group that had the highest tally to be the one group from which we would choose both a "top" and a "bottom". However, if after tallying up all the values the highest tally and the second highest tally were separated by at most a difference of 2, we selected the two respective temperature groups and chose a "top" from one and a "bottom" from the other. In other words, if over the next twelve hours, seven of the hours were in one temperature group and the other five were in an adjacent temperature group, we would mix outfit chocies from the two groups, because it suggested that the weather was right between the start of one group and the end of another. Also, we added onto our list of clothing choices additional miscellanous items if it was cold or raining. 
+
+Finally, along with the weather code and the daily high and low temperature, we returned a list of the outfit choices in a JSON format to the ios mobile app.
+
+Additionally, this code actually caches all the locations and their respective information, especially because of the limited nature of the free weather APIs at use in the code. Thus, it starts by checking if the received location has already been searched once and if so, then it just returns the cached information without calling the API. Only if the location is new does the code call the API. 
+
+Furthermore, there is another randomize function that weather function calls that just serves to randomize clothing options, so that for a certain temperature, it doesn't always output the same outfit choices. 
+
 
 ## logo
 

@@ -42,7 +42,7 @@ This was **THUNDERWEAR**.
 
 ## acknowledgements
 
-Special thanks go to Nick Wong, Thomas Chang, and Emma Ling for helping us learn Swift and get a headstart on our project. We couldn't have made a usable iOS app without you.
+Special thanks goes to our TFs Miles, Menaka, and Emma as well as Nick and Thomas for helping us learn Swift and get a headstart on our project. We couldn't have made a usable iOS app without you.
 
 Thunderwear is brought to you by three CS50 students :girl: :boy: :girl:
 

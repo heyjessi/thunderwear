@@ -77,6 +77,6 @@ User experience could be greatly improved by incorporating an image aspect. Orig
 
 In order for the user to receive outfit recommendations, a post request must be sent from the front end to back end, and a response must be received from the back end to front end. Therefore, this delay in order to load information slows down app performance.
 
-Learning to code in Swift/Xcode to develop an iOS app was a great and exciting learning experience. Although simple, we believe Thunderwear has the potential to make a real positive impact on people's lives. We hope you enjoy using our very first iOS app!
+Learning to code in Swift/Xcode to develop an iOS app was a great and exciting learning experience. We believe Thunderwear has the potential to make a real positive impact on people's lives. We hope you enjoy using our very first iOS app!
 
 This was **THUNDERWEAR**.

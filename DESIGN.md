@@ -47,6 +47,14 @@ If the user were input a second location by clicking on "input new location" aga
 - php tables
 - list out all the static clothing types, and also the temperature ranges
 
+In short, the server receives an HTTP request and a location from the mobile app and outputs a list of clothes suited for the current weather by the google maps and weatherbit APIs as well as from a SQL database.
+
+First, the mobile app sends the server a POST request that contains JSON information taken from the location "search" bar in the app. Then, Python receives said information and uses it as the argument in the weather function. 
+
+The weather function first takes in the argument and via the google maps api, converts it to its specific latitude and longitude coordinates. Then, it stores the weather code and high and low temperature for the day via the weatherbit daily api and then proceeds to call the weatherbit hourly api. 
+
+From here, the core of the algorithm is dependent
+
 ## logo
 
 We wanted to design a simple, clean, easily recognizable, yet unique logo. Combining a cloud, sun, and clothes hanger, we designed a logo that encapsulates the functionality and purpose of Thunderwear. The logo was designed using the online service [Canva](https://www.canva.com/).

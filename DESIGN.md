@@ -1,6 +1,6 @@
 # all about that design
 
-A ground-breaking, earth-shattering iOS app that will revolutionize your life. Global warming. CS50 Psets. Trump. All these can be scary and confusing. But don't worry, Thunderwear is here to save the day.
+A ground-breaking, earth-shattering iOS app that will revolutionize your life. Global warming. CS50 Psets. Life. All these can be scary and confusing. But don't worry, Thunderwear is here to save the day.
 
 This is **THUNDERWEAR**.
 

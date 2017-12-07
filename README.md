@@ -15,9 +15,17 @@ Since Thunderwear has not yet been published in the app store, the Github Xcode 
 
 ## features
 
-Thunderwear was designed to be extremely intuitive and user-friendly. Upon opening Thunderwear, the user is greeted by the home page. The home page is simple and clean, displaying only the Thunderwear logo and a button labelled "**Input Location**." To start, press the "**Input Location**" button. The user is redirected to the Location page where they can input either their current location or any location in the world. For ease of use, the location can be inputted in many formats (i.e. Street Address, City; City, State, Country; Zip code; Longitude, Latitude; etc.), similar to the way locations can be inputted in Google Maps.
+Thunderwear was designed to be extremely intuitive and user-friendly. Upon opening Thunderwear, the user is greeted by the home page. The home page is simple and clean, displaying only the Thunderwear logo and a button labelled "**Input Location**."
+
+![Image of Home Page](https://github.com/azhou4/thunderwear/blob/master/Screen%20Shot%202017-12-07%20at%2012.55.28%20am.png)
+
+To start, press the "**Input Location**" button. The user is redirected to the Location page where they can input either their current location or any location in the world. For ease of use, the location can be inputted in many formats (i.e. Street Address, City; City, State, Country; Zip code; Longitude, Latitude; etc.), similar to the way locations can be inputted in Google Maps.
+
+![Image of Location](https://github.com/azhou4/thunderwear/blob/master/Screen%20Shot%202017-12-07%20at%2012.55.54%20am.png)
 
 After entering location, clicking "**Submit**", and waiting a few seconds, the user will be directed back to the home page. This time, however, the home page will display a variety of features to guide the user to choose an outfit to wear. First, the background of the screen may change depending on the weather conditions of the location. For example, if there is a chance of precipitation, the background of the app will show rain pictures. Secondly, under the header "*Outfit Recommendations*," dynamically suggested clothing items such as short-sleeve shirts, long pants, coat/jackets will be made depending on the weather forecast and temperature of the location. If it is especially cold, the main menu will display the message "Don't forget to bring" with items such as mittens and gloves or scarves. Underneath "*Outfit Recommendations*," the "*Weather*" heading will provide additional advice regarding the precipitation and snow, such as remembering to bring an umbrella on a rainy day. In addition, there is a header called "*Today's Temperature*" that displays the High and Low temperatures. Lastly, there is another "**Input Location**" button at the bottom, allowing the user to easily look up another location if needed.
+
+![Image of Result](https://github.com/azhou4/thunderwear/blob/master/Screen%20Shot%202017-12-07%20at%2012.56.23%20am.png)
 
 Because we believe that all people should have access to thunderwear technology, it doesn't matter which device a user has. Our app will work on any Apple device including iPhones, iPad Minis, and iPads.
 

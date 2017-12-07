@@ -13,6 +13,7 @@ With the simple press of a button, Thunderwear will retrieve your local weather 
 Since Thunderwear has not yet been published in the app store, the Github Xcode file must be downloaded in order to access the iOS app. To access, simply download the Thunderwear folder on Github and open the project in Xcode. Ensure you have set up an account, allocated a Team, and also entered in your Apple credentials in the Project Settings of Xcode before attempting to run the app on your own device. Also, before running Xcode, be sure to check that CocoaPods and Alamofire are downloaded via terminal onto the computer (for additional details, read below). Additionally, download the backend code and run flask in order to set up the server. Once you've finished these steps, connect your iOS device to your computer and press the Play button on the top left of the screen to run Thunderwear on your own device.
 
 Additional details on how to download CocoaPods and Alamofire:
+
 For CocoaPods, follow the steps outlined in https://stackoverflow.com/questions/20755044/how-to-install-cocoa-pods (Do not type in pod 'AFNetworking', '0.9.1' as outlined in step 6 as this is just an example)
 To install Alamofire, after uncommenting platform :ios, '9.0'  and use_frameworks! (if not already done for you), simply write the following directly below use_frameworks!: "pod 'Alamofire','~> 4.5’,
 Then to complete, return to the terminal and execute step 7 of the CocoaPods installation by writing the following: pod install

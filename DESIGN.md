@@ -30,9 +30,6 @@ The first viewcontroller handles the home page as well as the display of weather
 
 Depending on the weather conditions, the background of the viewcontroller will change. To do this, the viewcontroller gets a weather code from the weatherInfo array, which is coded to be the first array element. If the first digit of the code is "2," "3," or "5," signifying there is some form of rain, the background will change to different rain backgrounds and will warn the user to bring an umbrella and a rain jacket. If the first digit of the code is "6", signifying there is snow, the background will change to a snowy picture. The default image is a blue solid background. This design enhances the visual appeal of the app, improves user experience, and enhances the quality of the weather/outfit suggestion.
 
-Lastly, the getOutfit button in viewcontroller sends an Alamofire request to the back end,
-**sorry i don't really understand what's going on here**
-
 ### second viewcontroller
 
 The second viewcontroller allows the user to input a location and submit this as an HTTP request. First, we needed to import the Alamofire library to the file. Additionally, we created an array of strings called weatherInfo as a global variable (so that its JSON elements can be easily accessed and changed in both the First and Second ViewContoller.swift files). In the Second ViewController, we also created an action function if the user clicks on the submit button. This sends the location information in the text field to the server and waits for validation. After receiving the validation, the app programatically redirects the user back to the main page. This was done because if the screen were to redirect back to the first view controller without receiving validation from the server, the main page would not show the information. This decision ensures that the information will always be shown once the user presses submit.
@@ -41,17 +38,11 @@ If the user were input a second location by clicking on "input new location" aga
 
 ## python/flask back end
 
-**this space is for you sang-o**
-- api
-- talk about the algorithm here
-- php tables
-- list out all the static clothing types, and also the temperature ranges
-
 In short, the server receives an HTTP request and a location from the mobile app and outputs a list of clothes suited for the current weather by the google maps and weatherbit APIs as well as from a SQL database.
 
 First, the mobile app sends the server a POST request that contains JSON information taken from the location "search" bar in the app. Then, Python receives said information and uses it as the argument in the weather function. 
 
-The weather function first takes in the argument and via the google maps api, converts it to its specific latitude and longitude coordinates. Then, it stores the weather code and high and low temperature for the day via the weatherbit daily api and then proceeds to call the weatherbit hourly api. 
+The weather function first takes in the argument and via the google maps API, converts it to its specific latitude and longitude coordinates. Then, it stores the weather code and high and low temperature for the day via the weatherbit daily API and then proceeds to call the weatherbit hourly API. 
 
 From here, the majority of the code is the algorithm itself - how to convert temperature into clothing. We created 5 tables ("vhot", "hot", "mild", "cool", "cold") in the sqllite database called "info" that each had their own specific outfit choices (i.e. "vhot" = "tank top", "short shorts") and their own specific temperature boundaries (i.e. "hot" is between 70 and 80°F). While reading in the hourly forecast for the next 12 hours one by one, we sorted each hourly temperature into one of the 5 groups and at the end, tallied them all up. Then we selected the temperature group that had the highest tally to be the one group from which we would choose both a "top" and a "bottom". However, if after tallying up all the values the highest tally and the second highest tally were separated by at most a difference of 2, we selected the two respective temperature groups and chose a "top" from one and a "bottom" from the other. In other words, if over the next twelve hours, seven of the hours were in one temperature group and the other five were in an adjacent temperature group, we would mix outfit chocies from the two groups, because it suggested that the weather was right between the start of one group and the end of another. Also, we added onto our list of clothing choices additional miscellanous items if it was cold or raining. 
 
@@ -77,6 +68,6 @@ User experience could be greatly improved by incorporating an image aspect. Orig
 
 In order for the user to receive outfit recommendations, a post request must be sent from the front end to back end, and a response must be received from the back end to front end. Therefore, this delay in order to load information slows down app performance.
 
-Learning to code in Swift/Xcode to develop an iOS app was a great and exciting learning experience. We believe Thunderwear has the potential to make a real positive impact on people's lives. We hope you enjoy using our very first iOS app!
+Learning to code in Swift/Xcode to develop an iOS app was a great and exciting learning experience. Although simple, we believe Thunderwear has the potential to make a real positive impact on people's lives. We hope you enjoy using our very first iOS app!
 
 This was **THUNDERWEAR**.

@@ -3,10 +3,6 @@
 A ground-breaking, earth-shattering iOS app that will revolutionize your life.
 Global warming. CS50 Psets. Life. All these can be scary and confusing. But don't worry, Thunderwear is here to save the day.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=PfQu2mmKz8s
-" target="_blank"><img src="http://img.youtube.com/vi/PfQu2mmKz8s/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-
 This is **THUNDERWEAR**.
 ![Image of Thunderwear Logo](https://github.com/azhou4/thunderwear/blob/master/THUNDERWEAR%20(4).png)
 
@@ -43,6 +39,9 @@ We believe Thunderwear has the potential to make a real positive impact on peopl
 
 This was **THUNDERWEAR**.
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=PfQu2mmKz8s
+" target="_blank"><img src="http://img.youtube.com/vi/PfQu2mmKz8s/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="480" height="360" border="10" /></a>
 
 ## acknowledgements
 

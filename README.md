@@ -3,6 +3,8 @@
 A ground-breaking, earth-shattering iOS app that will revolutionize your life.
 Global warming. CS50 Psets. Life. All these can be scary and confusing. But don't worry, Thunderwear is here to save the day.
 
+<iframe src="https://www.youtube.com/embed/PfQu2mmKz8s" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 This is **THUNDERWEAR**.
 ![Image of Thunderwear Logo](https://github.com/azhou4/thunderwear/blob/master/THUNDERWEAR%20(4).png)
 
